@@ -1,0 +1,6 @@
+framework module Pods_ReactiveCocoaStaticTableviewCell {
+  umbrella header "Pods-ReactiveCocoaStaticTableviewCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

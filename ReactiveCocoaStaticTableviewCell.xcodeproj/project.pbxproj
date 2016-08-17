@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2EF6D51E20142289F3FA028 /* Pods_ReactiveCocoaStaticTableviewCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29B43608B78C1CB52F13860 /* Pods_ReactiveCocoaStaticTableviewCell.framework */; };
 		A8F0ED631D63FE1B00F04676 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED621D63FE1B00F04676 /* main.m */; };
 		A8F0ED661D63FE1B00F04676 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED651D63FE1B00F04676 /* AppDelegate.m */; };
 		A8F0ED691D63FE1B00F04676 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED681D63FE1B00F04676 /* ViewController.m */; };
 		A8F0ED6C1D63FE1B00F04676 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F0ED6A1D63FE1B00F04676 /* Main.storyboard */; };
 		A8F0ED6E1D63FE1B00F04676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F0ED6D1D63FE1B00F04676 /* Assets.xcassets */; };
 		A8F0ED711D63FE1B00F04676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F0ED6F1D63FE1B00F04676 /* LaunchScreen.storyboard */; };
+		A8F0ED7A1D64003D00F04676 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED791D64003D00F04676 /* TableViewController.m */; };
+		A8F0ED7D1D64021100F04676 /* TableDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F0ED7C1D64021100F04676 /* TableDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8CCB7C1E171CE58EB573B593 /* Pods-ReactiveCocoaStaticTableviewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaStaticTableviewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaStaticTableviewCell/Pods-ReactiveCocoaStaticTableviewCell.release.xcconfig"; sourceTree = "<group>"; };
 		A8F0ED5E1D63FE1B00F04676 /* ReactiveCocoaStaticTableviewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoaStaticTableviewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F0ED621D63FE1B00F04676 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A8F0ED641D63FE1B00F04676 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +30,12 @@
 		A8F0ED6D1D63FE1B00F04676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F0ED701D63FE1B00F04676 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8F0ED721D63FE1B00F04676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8F0ED781D64003D00F04676 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A8F0ED791D64003D00F04676 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A8F0ED7B1D64021100F04676 /* TableDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDataModel.h; sourceTree = "<group>"; };
+		A8F0ED7C1D64021100F04676 /* TableDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDataModel.m; sourceTree = "<group>"; };
+		C87A2B16C9F22211CBC18B56 /* Pods-ReactiveCocoaStaticTableviewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveCocoaStaticTableviewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveCocoaStaticTableviewCell/Pods-ReactiveCocoaStaticTableviewCell.debug.xcconfig"; sourceTree = "<group>"; };
+		E29B43608B78C1CB52F13860 /* Pods_ReactiveCocoaStaticTableviewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveCocoaStaticTableviewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +43,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2EF6D51E20142289F3FA028 /* Pods_ReactiveCocoaStaticTableviewCell.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		21E999F107F7C191E3054F4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C87A2B16C9F22211CBC18B56 /* Pods-ReactiveCocoaStaticTableviewCell.debug.xcconfig */,
+				8CCB7C1E171CE58EB573B593 /* Pods-ReactiveCocoaStaticTableviewCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A8F0ED551D63FE1B00F04676 = {
 			isa = PBXGroup;
 			children = (
 				A8F0ED601D63FE1B00F04676 /* ReactiveCocoaStaticTableviewCell */,
 				A8F0ED5F1D63FE1B00F04676 /* Products */,
+				21E999F107F7C191E3054F4C /* Pods */,
+				FC4BEF907CDF278DB386D98E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +84,10 @@
 				A8F0ED651D63FE1B00F04676 /* AppDelegate.m */,
 				A8F0ED671D63FE1B00F04676 /* ViewController.h */,
 				A8F0ED681D63FE1B00F04676 /* ViewController.m */,
+				A8F0ED781D64003D00F04676 /* TableViewController.h */,
+				A8F0ED791D64003D00F04676 /* TableViewController.m */,
+				A8F0ED7B1D64021100F04676 /* TableDataModel.h */,
+				A8F0ED7C1D64021100F04676 /* TableDataModel.m */,
 				A8F0ED6A1D63FE1B00F04676 /* Main.storyboard */,
 				A8F0ED6D1D63FE1B00F04676 /* Assets.xcassets */,
 				A8F0ED6F1D63FE1B00F04676 /* LaunchScreen.storyboard */,
@@ -79,6 +105,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FC4BEF907CDF278DB386D98E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E29B43608B78C1CB52F13860 /* Pods_ReactiveCocoaStaticTableviewCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8F0ED751D63FE1B00F04676 /* Build configuration list for PBXNativeTarget "ReactiveCocoaStaticTableviewCell" */;
 			buildPhases = (
+				2E5C18E5A8BBE47561162D64 /* 📦 Check Pods Manifest.lock */,
 				A8F0ED5A1D63FE1B00F04676 /* Sources */,
 				A8F0ED5B1D63FE1B00F04676 /* Frameworks */,
 				A8F0ED5C1D63FE1B00F04676 /* Resources */,
+				B7E86461974698DEFDCF98B2 /* 📦 Embed Pods Frameworks */,
+				B5927FA974A7B259EED12C06 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,6 +181,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E5C18E5A8BBE47561162D64 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5927FA974A7B259EED12C06 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaStaticTableviewCell/Pods-ReactiveCocoaStaticTableviewCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E86461974698DEFDCF98B2 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveCocoaStaticTableviewCell/Pods-ReactiveCocoaStaticTableviewCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8F0ED5A1D63FE1B00F04676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -151,7 +236,9 @@
 			files = (
 				A8F0ED691D63FE1B00F04676 /* ViewController.m in Sources */,
 				A8F0ED661D63FE1B00F04676 /* AppDelegate.m in Sources */,
+				A8F0ED7D1D64021100F04676 /* TableDataModel.m in Sources */,
 				A8F0ED631D63FE1B00F04676 /* main.m in Sources */,
+				A8F0ED7A1D64003D00F04676 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +350,7 @@
 		};
 		A8F0ED761D63FE1B00F04676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C87A2B16C9F22211CBC18B56 /* Pods-ReactiveCocoaStaticTableviewCell.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactiveCocoaStaticTableviewCell/Info.plist;
@@ -274,6 +362,7 @@
 		};
 		A8F0ED771D63FE1B00F04676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCB7C1E171CE58EB573B593 /* Pods-ReactiveCocoaStaticTableviewCell.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ReactiveCocoaStaticTableviewCell/Info.plist;
@@ -302,6 +391,7 @@
 				A8F0ED771D63FE1B00F04676 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
